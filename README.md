@@ -11,8 +11,6 @@
 ```bash
 sudo nano /etc/nixos/configuration.nix
 ```
-```
-```
 
 2. Modify or add to the existing configuration:
 
