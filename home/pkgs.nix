@@ -14,6 +14,7 @@
     kitty
     lazygit
     ripgrep
+    tmux
     tree
     unzip
     vlc
