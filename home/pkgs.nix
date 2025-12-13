@@ -10,7 +10,6 @@
     fastfetch
     fd
     fzf
-    gh
     jq
     kitty
     lazygit
