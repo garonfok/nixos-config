@@ -5,6 +5,7 @@
       user.name = "garonfok";
       user.email = "fokgaron@gmail.com";
       init.defaultBranch = "master";
+      push.autoSetupRemote = true;
     };
   };
 }
