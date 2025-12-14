@@ -11,7 +11,6 @@
     fd
     fzf
     jq
-    kitty
     lazygit
     ripgrep
     tmux
@@ -31,6 +30,7 @@
     ./fish.nix
     ./git.nix
     ./librewolf.nix
+    ./kitty
   ];
 }
 
