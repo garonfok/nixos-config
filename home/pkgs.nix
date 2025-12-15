@@ -32,7 +32,7 @@
     ./git.nix
     ./librewolf.nix
     ./neovim.nix
-    ./kitty
+    ./kitty.nix
   ];
 }
 
