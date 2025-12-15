@@ -5,7 +5,7 @@
 
   # System packages
   environment.systemPackages = with pkgs; [
-    neovim
+    # neovim
   ];
 
   programs.git.enable = true;

@@ -30,6 +30,7 @@
     ./fish.nix
     ./git.nix
     ./librewolf.nix
+    ./neovim.nix
     ./kitty
   ];
 }
