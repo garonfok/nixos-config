@@ -17,6 +17,7 @@
     tmux
     tree
     unzip
+    vesktop
     vlc
     wget
     zathura
