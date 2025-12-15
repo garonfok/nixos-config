@@ -10,6 +10,7 @@
     fastfetch
     fd
     fzf
+    gcc
     jq
     lazygit
     ripgrep
