@@ -11,6 +11,7 @@
     fd
     fzf
     gcc
+    jetbrains.rider
     jq
     lazygit
     ripgrep
