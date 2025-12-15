@@ -20,6 +20,7 @@
     unzip
     vesktop
     vlc
+    vscode
     wget
     zathura
     zoxide
