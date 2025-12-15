@@ -44,38 +44,41 @@
           "update.autoUpdateDefault" = false;
           "update.enabled" = false;
         };
-        bookmarks = [
-          {
-            name = "toolbar";
-            toolbar = true;
-            bookmarks = [
-              {
-                name = "Frontline Education";
-                url = "https://app.frontlineeducation.com";
-              }
-              {
-                name = "Aeries";
-                url = "https://fremontusd.aeries.net/teacher/Default.aspx";
-              }
-              {
-                name = "Mustang Memo";
-                url = "sites.google.com/fusdk12.net/mustang-memo";
-              }
-              {
-                name = "Frontline ERP";
-                url = "https://fl-portal.acoe.org/#/login";
-              }
-              {
-                name = "ParentSquare";
-                url = "https://parentsquare.com";
-              }
-              {
-                name = "Music Program Documentation";
-                url = "https://fusd.canonlab.dev";
-              }
-            ];
-          }
-        ];
+        bookmarks = {
+          force = true;
+          settings = [
+            {
+              name = "toolbar";
+              toolbar = true;
+              bookmarks = [
+                {
+                  name = "Frontline Education";
+                  url = "https://app.frontlineeducation.com";
+                }
+                {
+                  name = "Aeries";
+                  url = "https://fremontusd.aeries.net/teacher/Default.aspx";
+                }
+                {
+                  name = "Mustang Memo";
+                  url = "sites.google.com/fusdk12.net/mustang-memo";
+                }
+                {
+                  name = "Frontline ERP";
+                  url = "https://fl-portal.acoe.org/#/login";
+                }
+                {
+                  name = "ParentSquare";
+                  url = "https://parentsquare.com";
+                }
+                {
+                  name = "Music Program Documentation";
+                  url = "https://fusd.canonlab.dev";
+                }
+              ];
+            }
+          ];
+        };
       };
       omscs = {
         id = 2;
@@ -94,26 +97,29 @@
           "update.autoUpdateDefault" = false;
           "update.enabled" = false;
         };
-        bookmarks = [
-          {
-            name = "toolbar";
-            toolbar = true;
-            bookmarks = [
-              {
-                name = "Canvas";
-                url = "https://gatech.instructure.com";
-              }
-              {
-                name = "EdStem";
-                url = "https://edstem.org/us/dashboard";
-              }
-              {
-                name = "GitHub";
-                url = "https://github.gatech.edu";
-              }
-            ];
-          }
-        ];
+        bookmarks = {
+          force = true;
+          settings = [
+            {
+              name = "toolbar";
+              toolbar = true;
+              bookmarks = [
+                {
+                  name = "Canvas";
+                  url = "https://gatech.instructure.com";
+                }
+                {
+                  name = "EdStem";
+                  url = "https://edstem.org/us/dashboard";
+                }
+                {
+                  name = "GitHub";
+                  url = "https://github.gatech.edu";
+                }
+              ];
+            }
+          ];
+        };
       };
     };
   };

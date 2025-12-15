@@ -1,7 +1,7 @@
 { pkgs, ... }: {
   programs.git = {
     enable = true;
-    extraConfig = {
+    settings = {
       user.name = "garonfok";
       user.email = "fokgaron@gmail.com";
       init.defaultBranch = "master";
