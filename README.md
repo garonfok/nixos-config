@@ -31,7 +31,7 @@ sudo nixos-rebuild switch
 
 ```bash
 cd
-git pull https://github.com/garonfok/nixos-config
+git clone https://github.com/garonfok/nixos-config
 ```
 
 5. Navigate into the directory and build the flakes
