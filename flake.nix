@@ -32,19 +32,28 @@
     let
       inherit (nixpkgs) lib;
       specialArgs = { inherit inputs;};
-      system = "x86_64-linux";
+      forAllSystems =
+        body: lib.getAttrs lib.systems.flakeExposed ( system: body nixpkgs.legacyPackages.${system});
     in {
       nixosConfigurations = {
         riley = nixpkgs.lib.nixosSystem {
           inherit specialArgs;
           modules = [
             ./common
-            ./configuration.nix
-            ./hardware-configuration.nix
+            ./hosts/riley
             inputs.home-manager.nixosModules.home-manager
             ./home
           ];
 	      };
+        riley-p1 = nixpkgs.lib.nixosSystem {
+          inherit specialArgs;
+          modules = [
+            ./common
+            ./hosts/riley-p1
+            inputs.home-manager.nixosModules.home-manager
+            ./home
+          ];
+        };
       };
     };
 }
