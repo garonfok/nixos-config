@@ -26,6 +26,8 @@
           "update.autoUpdateDefault" = false;
           "update.enabled" = false;
           "browser.toolbars.bookmarks.visibility" = "never";
+          "privacy.resistFingerprinting" = false;
+
         };
       };
       work = {
