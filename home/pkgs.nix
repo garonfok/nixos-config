@@ -6,6 +6,7 @@
   home.packages = with pkgs; [
     bat
     btop
+    croc
     eza
     fastfetch
     fd

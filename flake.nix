@@ -54,6 +54,15 @@
             ./home
           ];
         };
+        riley-p2 = nixpkgs.lib.nixosSystem {
+          inherit specialArgs;
+          modules = [
+            ./common
+            ./hosts/riley-p2
+            inputs.home-manager.nixosModules.home-manager
+            ./home
+          ];
+        };
       };
     };
 }
