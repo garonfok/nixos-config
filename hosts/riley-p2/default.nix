@@ -18,6 +18,15 @@
   hardware.bluetooth.enable = true;
   hardware.bluetooth.powerOnBoot = true;
 
+  # Accelerated Video Playback
+  hardware.graphics = {
+    enable = true;
+    extraPackages = with pkgs; [
+      intel-media-driver
+      # libvdpau-va-gl
+    ];
+  };
+
   # Services
   services = {
     openssh.enable = true;
