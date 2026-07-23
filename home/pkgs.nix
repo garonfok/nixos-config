@@ -1,7 +1,7 @@
 { config, pkgs, ... }: {
   home.username = "garonfok";
   home.homeDirectory = "/home/garonfok";
-  home.stateVersion = "25.11";
+  home.stateVersion = "26.05";
 
   home.packages = with pkgs; [
     bat
