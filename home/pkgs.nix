@@ -34,7 +34,7 @@
     ./dms.nix
     ./fish.nix
     ./git.nix
-    ./librewolf.nix
+    ./firefox.nix
     ./neovim.nix
     ./kitty.nix
   ];
