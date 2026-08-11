@@ -27,7 +27,6 @@
           "update.enabled" = false;
           "browser.toolbars.bookmarks.visibility" = "never";
           "privacy.resistFingerprinting" = false;
-          "browser.startup.homepage" = "https://google.com";
 
           # Enable HTTPS-Only Mode
           "dom.security.https_only_mode" = true;
@@ -61,12 +60,23 @@
           "network.allow-experiments" = false;
 
           # Disable Pocket Integration
-          "browser.newtabpage.activity-stream.section.highlights.includePocket" = false;
           "extensions.pocket.enabled" = false;
           "extensions.pocket.api" = "";
           "extensions.pocket.oAuthConsumerKey" = "";
           "extensions.pocket.showHome" = false;
           "extensions.pocket.site" = "";
+
+          # General browser settings
+          "browser.formfill.enable" = false;
+          "browser.newtabpage.activity-stream.feeds.section.topstories" = false;
+          "browser.newtabpage.activity-stream.feeds.snippets" = false;
+          "browser.newtabpage.activity-stream.section.highlights.includePocket" = false;
+          "browser.newtabpage.activity-stream.section.highlights.includeBookmarks" = false;
+          "browser.newtabpage.activity-stream.section.highlights.includeDownloads" = false;
+          "browser.newtabpage.activity-stream.section.highlights.includeVisited" = false;
+          "browser.newtabpage.activity-stream.showSponsored" = false;
+          "browser.newtabpage.activity-stream.system.showSponsored" = false;
+          "browser.newtabpage.activity-stream.showSponsoredTopSites" = false;
         };
       };
       work = {
@@ -85,7 +95,6 @@
           "update.autoUpdateDefault" = false;
           "update.enabled" = false;
           "privacy.resistFingerprinting" = false;
-          "browser.startup.homepage" = "https://google.com";
 
           # Enable HTTPS-Only Mode
           "dom.security.https_only_mode" = true;
@@ -119,12 +128,23 @@
           "network.allow-experiments" = false;
 
           # Disable Pocket Integration
-          "browser.newtabpage.activity-stream.section.highlights.includePocket" = false;
           "extensions.pocket.enabled" = false;
           "extensions.pocket.api" = "";
           "extensions.pocket.oAuthConsumerKey" = "";
           "extensions.pocket.showHome" = false;
           "extensions.pocket.site" = "";
+
+          # General browser settings
+          "browser.formfill.enable" = false;
+          "browser.newtabpage.activity-stream.feeds.section.topstories" = false;
+          "browser.newtabpage.activity-stream.feeds.snippets" = false;
+          "browser.newtabpage.activity-stream.section.highlights.includePocket" = false;
+          "browser.newtabpage.activity-stream.section.highlights.includeBookmarks" = false;
+          "browser.newtabpage.activity-stream.section.highlights.includeDownloads" = false;
+          "browser.newtabpage.activity-stream.section.highlights.includeVisited" = false;
+          "browser.newtabpage.activity-stream.showSponsored" = false;
+          "browser.newtabpage.activity-stream.system.showSponsored" = false;
+          "browser.newtabpage.activity-stream.showSponsoredTopSites" = false;
         };
         bookmarks = {
           force = true;
@@ -179,7 +199,6 @@
           "update.autoUpdateDefault" = false;
           "update.enabled" = false;
           "privacy.resistFingerprinting" = false;
-          "browser.startup.homepage" = "https://google.com";
 
           # Enable HTTPS-Only Mode
           "dom.security.https_only_mode" = true;
@@ -213,12 +232,23 @@
           "network.allow-experiments" = false;
 
           # Disable Pocket Integration
-          "browser.newtabpage.activity-stream.section.highlights.includePocket" = false;
           "extensions.pocket.enabled" = false;
           "extensions.pocket.api" = "";
           "extensions.pocket.oAuthConsumerKey" = "";
           "extensions.pocket.showHome" = false;
           "extensions.pocket.site" = "";
+
+          # General browser settings
+          "browser.formfill.enable" = false;
+          "browser.newtabpage.activity-stream.feeds.section.topstories" = false;
+          "browser.newtabpage.activity-stream.feeds.snippets" = false;
+          "browser.newtabpage.activity-stream.section.highlights.includePocket" = false;
+          "browser.newtabpage.activity-stream.section.highlights.includeBookmarks" = false;
+          "browser.newtabpage.activity-stream.section.highlights.includeDownloads" = false;
+          "browser.newtabpage.activity-stream.section.highlights.includeVisited" = false;
+          "browser.newtabpage.activity-stream.showSponsored" = false;
+          "browser.newtabpage.activity-stream.system.showSponsored" = false;
+          "browser.newtabpage.activity-stream.showSponsoredTopSites" = false;
         };
         bookmarks = {
           force = true;
